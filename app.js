@@ -6,10 +6,10 @@ app.use(express.static('public'));
 app.use(express.urlencoded({extended: false}));
 
 const connection = mysql.createConnection({
-  host: 'db4free.net',
-  user: 'silvifebrianti',
-  password: 'listapp18',
-  database: 'listapp18'
+  host: 'localhost',
+  user: 'root',
+  password: '',
+  database: 'list_app'
 });
 
 app.get('/', (req, res) => {
@@ -71,4 +71,4 @@ app.post('/update/:id', (req, res) => {
   // Hapus code dibawah ini yang redirect ke halaman Daftar Belanjaan
 });
 
-app.listen(3306);
+app.listen(3000);
