@@ -71,4 +71,4 @@ app.post('/update/:id', (req, res) => {
   // Hapus code dibawah ini yang redirect ke halaman Daftar Belanjaan
 });
 
-app.listen(3000);
+app.listen(3306);
