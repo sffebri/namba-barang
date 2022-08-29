@@ -1,4 +1,4 @@
 {
-  "watch": ["/home/progate/list-app"],
+  "watch": ["/list-app"],
   "ext": "css,ejs,js,json"
 }
