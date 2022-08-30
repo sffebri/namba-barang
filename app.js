@@ -1,6 +1,7 @@
 const express = require('express');
 const mysql = require('mysql');
 const app = express();
+const PORT = process.env.PORT || 3000
 
 app.use(express.static('public'));
 app.use(express.urlencoded({extended: false}));
@@ -71,4 +72,6 @@ app.post('/update/:id', (req, res) => {
   // Hapus code dibawah ini yang redirect ke halaman Daftar Belanjaan
 });
 
-app.listen(3000);
+app.listen(PORT, () => {
+    console.log(`listening on port ${PORT}`)
+})
