@@ -6,10 +6,10 @@ app.use(express.static('public'));
 app.use(express.urlencoded({extended: false}));
 
 const connection = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: '',
-  database: 'list_app'
+  host: 'db4free.net',
+  user: 'silvifebrianti',
+  password: 'listapp18',
+  database: 'listapp18'
 });
 
 app.get('/', (req, res) => {
