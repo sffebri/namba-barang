@@ -71,4 +71,4 @@ app.post('/update/:id', (req, res) => {
   // Hapus code dibawah ini yang redirect ke halaman Daftar Belanjaan
 });
 
-app.listen(process.env.PORT);
+app.listen(3000);
