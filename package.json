@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/sffebri/namba-barang/",
+  "homepage": "https://sffebri.github.io/namba-barang/",
   "name": "nodejs_lesson",
   "version": "1.0.0",
   "description": "",
@@ -19,7 +19,8 @@
     "express": "^4.16.4",
     "module": "^1.2.5",
     "mysql": "^2.18.1",
-    "nodemon": "^2.0.19"
+    "nodemon": "^2.0.19",
+    "react-scripts": "3.4.3"
   },
   "devDependencies": {
     "gh-pages": "^5.0.0"
